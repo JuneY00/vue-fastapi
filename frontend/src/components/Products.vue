@@ -36,7 +36,7 @@ export default {
     }
   },
   created() {
-	  axios.get(`${endpoint}/`)
+    axios.get(`${endpoint}/`)
       .then(response => {
         this.products = response.data.data
       })
